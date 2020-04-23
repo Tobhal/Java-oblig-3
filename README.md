@@ -108,7 +108,7 @@ Gjør endringer i Main.java slik at planetene som lages i planetsystemet får de
 
 Vi ønsker å kunne finne avstanden mellom en naturlig sattelitt og objektet det går i bane rundt.  For å gjøre dette kan vi benytte Kepler's orbit formula.
 
-kepler_orbit_formula.gif
+r = a(1-e²)/1+e*cos
 
     r = avstanden i AU (AstronomicalUnits - 1AU = gjennomsnittlige avstanden mellom jorda og sola)
     a = semi-major axis
@@ -141,7 +141,7 @@ Earth has a distance of 147054707km to the Sun at 360 degrees
 
 Vi ønsker også å finne hastigheten til en naturlig satelitt. Dette kan vi benytte den underliggende formelen til.
 
-orbiting_velocity_formula.png
+v = √(GM/r)
 
     v = hastigheten i m/s
     G = Gravitational constant
